@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter auto-saves
+.ipynb_checkpoints/
+
+# Editor settings
+.vscode/
+
+# Test file
+test.txt
