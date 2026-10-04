@@ -1,4 +1,4 @@
-var API_URL = "http://127.0.0.1:5000";
+var API_URL = location.protocol === "file:" ? "http://127.0.0.1:5000" : "/api";
 
 function getCheckedValue(name) {
   var checked = document.querySelector('input[name="' + name + '"]:checked');
